@@ -1,0 +1,70 @@
+.table-input {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 1px;
+    font-size: 14px;
+
+    @media (max-width: 768px) {
+      min-width: 768px;
+    }
+}
+
+.table-input, .table-input th, .table-input td {
+  border: 1px solid #999;
+}
+
+.table-input th {
+  padding: 8px 8px;
+  text-align: left;
+}
+
+.table-input
+td {
+  padding: 8px 8px;
+  text-align: left;
+  font-size: 14px;
+  /* min-width: 120px; */
+}
+
+.table-input thead th {
+  font-weight: 700;
+  background-color: #fff;
+  /* min-width: 120px; */
+}
+
+.table-input   tbody tr {
+  background-color: #fff;
+}
+
+.table-input tbody tr:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+.table-input tbody tr:hover {
+  background-color: #e5e5e5;
+}
+
+#actions div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#actions div  button{
+  background: none;
+  border: none;
+  display: flex;
+  margin-right: 5px;
+  justify-content: center;
+}
+
+#actions div  svg{
+  color: #898c90;
+  transition: color 0.2s;
+}
+
+#actions div  svg:hover{
+  color: #333;
+}
+
